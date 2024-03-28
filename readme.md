@@ -1,4 +1,4 @@
-# **Human Emotion Recognition with the Raspberry Pi**
+# **RASPI HUMAN EMOTION DETECTION - TRANQUIL PROJECT**
 
 Dataset we used + more we did ourselves: [FER2013 dataset](https://www.kaggle.com/ashishpatel26/facial-expression-recognitionferchallenge). - referece machine learning folder
 
