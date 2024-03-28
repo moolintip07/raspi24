@@ -6,7 +6,7 @@ from tensorflow.keras.models import load_model
 
 
 model = load_model(
-    r"C:\Users\washi\Desktop\Coding\raspberry_pi_emotion_detection\snapshot\machineLearning\model.h5",
+    r"C:\Users\praneet\Desktop\Coding\raspberry_pi_emotion_detection\snapshot\machineLearning\model.h5",
     compile=True,
 )
 
@@ -20,11 +20,11 @@ class Predictor:
         large_img = cv2.imread(src, cv2.IMREAD_GRAYSCALE)
         resize_img = cv2.resize(large_img, (48, 48))
         new_img = cv2.imwrite(
-            r"C:\Users\washi\Desktop\Coding\raspberry_pi_emotion_detection\snapshot\output\new_ml_image.jpg",
+            r"C:\Users\praneet\Desktop\Coding\raspberry_pi_emotion_detection\snapshot\output\new_ml_image.jpg",
             resize_img,
         )
         img = Image.open(
-            r"C:\Users\washi\Desktop\Coding\raspberry_pi_emotion_detection\snapshot\output\new_ml_image.jpg",
+            r"C:\Users\praneet\Desktop\Coding\raspberry_pi_emotion_detection\snapshot\output\new_ml_image.jpg",
             "r",
         )
         pixels = np.array(list(img.getdata()))
