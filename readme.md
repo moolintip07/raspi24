@@ -19,4 +19,4 @@ Due to Tkinter's widget placement styles - app must be viewd in full window pls
 red button - used to take photo and predict emotion
 green button - will give the spotify playlist to listen to
 
-** INSTRUCTIONS FOR AUD DETECTOR"
+The artificial recreation of human speech by a computer instrument is known as speech synthesis. To enable speech functionality on the system, it is mostly utilized for text-to-audio translation. Speech synthesis is used in products like Google Assistant, Amazon Echo, Microsoft Cortana, and Apple Siri. Intructions:
