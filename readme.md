@@ -18,3 +18,5 @@ Due to Tkinter's widget placement styles - app must be viewd in full window pls
 
 red button - used to take photo and predict emotion
 green button - will give the spotify playlist to listen to
+
+** INSTRUCTIONS FOR AUD DETECTOR"
